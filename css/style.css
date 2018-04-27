@@ -1,15 +1,4 @@
-/* ==== Google font ==== */
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
-@import url('font-awesome.css');
 
-/* ==== overwrite bootstrap standard ==== */
-@import url('overwrite.css');
-@import url('animate.css');
-
-/*************************
-*******Typography******
-**************************/
 body {
   background: #fff;
   font-family:'Roboto', Arial, sans-serif;
@@ -304,20 +293,20 @@ hr {
 *******feature******
 **************************/
 #feature {
-	padding-top:90px;
-	background:#fff;
+	padding-top:2px;
+	background:rgb(246, 245, 253);
 	padding-bottom:50px;
 }
 
 .hi-icon-effect {
 	padding-bottom:30px;
-	padding-left:10px;
+	padding-left:20px;
 	padding-right:10px;
 }
 
 .hi-icon-effect:hover {
 	border-radius:6px;
-	background:#f4f4f4;
+	background:#35cce7;
 	-webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -326,7 +315,7 @@ hr {
 
 .hi-icon-effect i.fa:hover {
 	background:#fff;
-	color: #0BA9F9;
+	color: rgb(255, 195, 225);
 	-webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -337,9 +326,9 @@ hr {
 	font-size:30px;
 	margin-top:50px;
 	margin-bottom:30px;
-	color:#fff;
+	color:rgb(76, 10, 230);
 	padding:50px;
-	background:#0BA9F9;
+	background:rgb(248, 228, 228);
 	border-radius:50%;
 }
 .text-center h2 {
@@ -665,28 +654,7 @@ figure.effect-chico:hover img {
   right: -9px;
 }
 
-/*************************
-*******our team******
-**************************/
-#our-team {
-	padding-top:70px;
-	padding-bottom:70px;
-	background:#f4f4f4;
-}
 
-#our-team h4 {
-	color:#0BA9F9;
-}
-
-#our-team .text-center {
-	padding-top:20px;
-	margin-bottom:30px;
-	padding-bottom:10px;
-}
-
-#our-team .team img {
-	border-radius:8px;
-}
 
 /*************************
 *******footer******
